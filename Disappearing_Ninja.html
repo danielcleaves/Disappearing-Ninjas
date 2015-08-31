@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>jQuery qualifying exam - assignment 1</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                $(this).hide();
+            });
+       
+
+	        $('#rest').click(function(){
+	        	console.log('test');
+	        	$('img').show();
+
+        	});
+     	 });  
+
+	</script>
+
+
+
+	</head>
+	<body>
+		<h1>jQuery - assignment 1</h1>
+				<img src ="images/black.png" alt="Dojo Black">
+				<img src ="images/ext.jpg" alt="Dojo Blue">
+				<img src ="images/imgres-1.png" alt="Ying Yang">
+				<img src ="images/imgres.jpg" alt="Sword Ninja">
+				<img src ="images/imgres2.png" alt="Ninja Red">
+				<img src ="images/ninja.jpeg" alt="Cartoon Ninja">
+				<img src ="images/NinjaLaptop1.png" alt="Laptop Ninja">
+				<img src ="images/yellow_Seated.png" alt="Ninja Yellow">
+		
+		<button id = 'rest'>Restore</button>
+		
+	</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+	#wrapper {
+	width: 700px;
+	margin: 10px;
+	padding: 10px;
+}
+	
+	h1 {
+	margin: 10px;
+	padding: 10px;
+}
+
+	img {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+	#rest {
+		display: block;
+		margin: 20px;
+		font-size: 16px;
+		background-color: green;
+		border: 2px solid black;
+	}
